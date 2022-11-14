@@ -9,6 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.1238.0"
+    "aws-sdk": "^2.1238.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.108",
+    "@types/lodash": "^4.14.189",
+    "@types/node": "^18.11.9",
+    "@vercel/ncc": "^0.34.0"
   }
 }
