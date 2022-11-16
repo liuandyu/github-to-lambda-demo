@@ -3,7 +3,7 @@ import * as _ from 'lodash';
 
 
 export const handler = async (event: APIGatewayProxyEvent) => {
-    const max = 999;
+    const max = 99;
     const val = _.random(max);
 
     const response = {
