@@ -8,7 +8,7 @@ export const handler = async (event: APIGatewayProxyEvent) => {
 
     const response = {
         statusCode: 200,
-        body: `The random value (max ${max}) is ${val}`
+        body: `The random value (max ${max}) is ${val}. I was updated by github.`
     };
     return response;
 };
